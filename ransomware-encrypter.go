@@ -10,11 +10,11 @@ import (
 	"math/big"
 	"net"
 	"os"
-	"passwords"
+	"./keys"
 	"path/filepath"
 	"proxy"
 	"strconv"
-	"tor"
+	"./tor"
 
 	"fyne.io/fyne/v2/app"
 	"fyne.io/fyne/v2/container"
